@@ -16,7 +16,7 @@ public class AdditionofTwoNumbersScanner {
 		System.out.println("The Addition of Two Numer is:"+Add);
 		Mul=A*B;
 		System.out.println("The Multipication of Two Number is:" +Mul);
-		Div=A
+		Div=A/B;
 		
 	}
 	
