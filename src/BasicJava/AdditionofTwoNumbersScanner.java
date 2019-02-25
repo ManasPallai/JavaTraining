@@ -6,7 +6,7 @@ public class AdditionofTwoNumbersScanner {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
 		int A;
-		double B,Add,Mul,Div,Mod;
+		double B,Add,Mul,Div,Mod,Sub;
 		System.out.println("Enter A:");
 		
 		A=scan.nextInt();
@@ -20,6 +20,8 @@ public class AdditionofTwoNumbersScanner {
 		System.out.println("The Divison of Two Number is:" +Div);
 		Mod=A%B;
 		System.out.println("The Modulus of Two Number is:" +Mod);
+		Sub=A-B;
+		System.out.println("The Substraction of Two Number is:" +Sub);
 		
 	}
 	
